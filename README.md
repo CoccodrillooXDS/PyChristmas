@@ -103,7 +103,7 @@ The tree is composed by a Raspberry PI, an Arduino MKR WiFi 1010, 3 LED strips, 
 
 ## Raspberry PI and Python
 
-9. Flash the Raspberry PI with the **[Raspberry PI OS](https://www.raspberrypi.org/software/)** (this README was written with **Raspberry PI OS**, formely known as **Raspbian**, in mind, but you can use any other OS)
+9. Flash the Raspberry PI with the **[Raspberry PI Imager](https://www.raspberrypi.org/software/)** (this README was written with **Raspberry PI OS**, formely known as **Raspbian**, in mind, but you can use any other OS)
 10. Connect the Raspberry PI to a monitor, a keyboard and a mouse (optional if you want to use the Raspberry PI headless via SSH)
 11. Connect the Raspberry PI to the internet (you can use an ethernet cable or connect to a WiFi network)
 12. Open the terminal or connect to the Raspberry PI via SSH
@@ -140,9 +140,9 @@ The tree is composed by a Raspberry PI, an Arduino MKR WiFi 1010, 3 LED strips, 
 
     ![Create device](images/Arduino_IoT_Cloud/003.jpg)
 
-23. Save the **Device ID** and the **Device Secret** somewhere safe (we will need them later)
+23. Save the **Device ID** and the **Secret Key** somewhere safe (we will need them later)
 
-    ![Device ID and Device Secret](images/Arduino_IoT_Cloud/004.jpg)
+    ![Device ID and Secret Key](images/Arduino_IoT_Cloud/004.jpg)
 
 24. Check the **I saved my device ID and Secret Key** box and press **CONTINUE**
 25. Click on **GOT IT**
@@ -170,12 +170,12 @@ The tree is composed by a Raspberry PI, an Arduino MKR WiFi 1010, 3 LED strips, 
 
     ![Add widgets](images/Arduino_IoT_Cloud/009.jpg)
 
-## Embedding the Device ID and Device Secret in the Python code
+## Embedding the Device ID and Secret Key in the Python code
 30. Open the **[software.py](software.py)** file using a text editor or '*nano*' (if you are using the terminal)
     ```
     nano software.py
     ```
-31. Replace the **DEVICE_ID** and **DEVICE_SECRET** variables with the ones you saved earlier (Step 23). DO NOT REMOVE THE "**b**" BEFORE THE QUOTES
+31. Replace the **DEVICE_ID** and **SECRET_KEY** variables with the ones you saved earlier (Step 23). DO NOT REMOVE THE "**b**" BEFORE THE QUOTES
     ```python
     DEVICE_ID = b"REPLACE WITH YOUR DEVICE ID"
     SECRET_KEY = b"REPLACE WITH YOUR SECRET KEY"

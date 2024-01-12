@@ -141,9 +141,9 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 
     ![Create device](images/Arduino_IoT_Cloud/003.jpg)
 
-23. Salva il **Device ID** e il **Device Secret** da qualche parte (ne avrai bisogno più tardi)
+23. Salva il **Device ID** e il **Secret Key** da qualche parte (ne avrai bisogno più tardi)
 
-    ![Device ID and Device Secret](images/Arduino_IoT_Cloud/004.jpg)
+    ![Device ID and Secret Key](images/Arduino_IoT_Cloud/004.jpg)
 
 24. Seleziona la casella **I saved my device ID and Secret Key** e premi **CONTINUE**
 25. Clicca su **GOT IT**
@@ -165,12 +165,12 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 
     ![Add widgets](images/Arduino_IoT_Cloud/009.jpg)
 
-## Incorporare il Device ID e il Device Secret nel codice Python
+## Incorporare il Device ID e il Secret Key nel codice Python
 30. Apri il file **[software.py](software.py)** usando un editor di testo o '*nano*' (se stai usando il terminale)
     ```
     nano software.py
     ```
-31. Sostituisci le variabili **DEVICE_ID** e **DEVICE_SECRET** con quelle che hai salvato prima (Step 23). NON RIMUOVERE LA "**b**" PRIMA DELLE VIRGOLETTE
+31. Sostituisci le variabili **DEVICE_ID** e **SECRET_KEY** con quelle che hai salvato prima (Step 23). NON RIMUOVERE LA "**b**" PRIMA DELLE VIRGOLETTE
     ```python
     DEVICE_ID = b"SOSTITUISCI CON IL TUO DEVICE ID"
     SECRET_KEY = b"SOSTITUISCI CON IL TUO SECRET KEY"
