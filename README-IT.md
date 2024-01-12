@@ -35,7 +35,7 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 - **[Arduino IDE](https://www.arduino.cc/en/software)**
 - **[Python](https://www.python.org/downloads/)** (versione 3.9.0 o superiore)
 - **[Raspberry PI Imager](https://www.raspberrypi.org/software/)** (o qualsiasi altro software per flashare il Raspberry PI)
-- **Browser web supportato** (Chrome, Firefox, Edge, Safari, etc.)
+- **Web Browser supportato** (Chrome, Firefox, Edge, Safari, etc.)
 
 ## Hardware
 - **Breadboard**
@@ -67,7 +67,7 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 
 *tabella presa da [https://luma-led-matrix.readthedocs.io/en/latest/install.html](https://luma-led-matrix.readthedocs.io/en/latest/install.html#max7219-devices-spi)*
 
-### LED STRIPS:
+### STRISCE LED:
 | Pin Arduino | Passa tramite | Destinazione               |
 | ----------- | ------------- | -------------------------- |
 | ~D3         | Resistore     | 1a striscia LED (in basso) |
@@ -75,7 +75,7 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 | ~D5         | Resistore     | 3a striscia LED (in alto)  |
 | GND         | -             | Massa sulla breadboard     |
 
-### Motor and capacitor:
+### MOTORE E CONDENSATORE:
 | Sorgente                  | Destinazione              | Destinazione Alternativa                      |
 | ------------------------- | ------------------------- | --------------------------------------------- |
 | Pin positivo motore       | GPIO27 (Raspberry PI)     | Alimentatore con connessioni sulla breadboard |
