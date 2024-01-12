@@ -35,7 +35,7 @@ L'albero è composto da un Raspberry PI, un Arduino MKR WiFi 1010, 3 strisce LED
 - **[Arduino IDE](https://www.arduino.cc/en/software)**
 - **[Python](https://www.python.org/downloads/)** (versione 3.9.0 o superiore)
 - **[Raspberry PI Imager](https://www.raspberrypi.org/software/)** (o qualsiasi altro software per flashare il Raspberry PI)
-- **Web Browser supportato** (Chrome, Firefox, Edge, Safari, etc.)
+- **Web Browser supportato** (Chrome, Firefox, Edge, Safari, ecc.)
 
 ## Hardware
 - **Breadboard**
