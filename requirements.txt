@@ -1,0 +1,4 @@
+arduino_iot_cloud
+adafruit_blinka
+luma.led_matrix
+pyserial
