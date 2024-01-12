@@ -129,28 +129,45 @@ The tree is composed by a Raspberry PI, an Arduino MKR WiFi 1010, 3 LED strips, 
 18. Log in with your Arduino account or create one if you don't have one
 19. Go to the IoT Cloud dashboard
 20. Go to **Devices** and click on **ADD DEVICE**
+
     ![Add device](images/Arduino_IoT_Cloud/001.jpg)
+
 21. Select "**Any Device**" under **MANUAL** and click on **CONTINUE**
+
     ![Manual](images/Arduino_IoT_Cloud/002.jpg)
+
 22. Select a name for your device and click on **NEXT**
+
     ![Create device](images/Arduino_IoT_Cloud/003.jpg)
+
 23. Save the **Device ID** and the **Device Secret** somewhere safe (we will need them later)
+
     ![Device ID and Device Secret](images/Arduino_IoT_Cloud/004.jpg)
+
 24. Check the **I saved my device ID and Secret Key** box and press **CONTINUE**
 25. Click on **GOT IT**
+
     ![Got it](images/Arduino_IoT_Cloud/005.jpg)
+
 26. In the new page, click on **Create thing**
+
     ![Create thing](images/Arduino_IoT_Cloud/006.jpg)
+
 27. In **Cloud Variables**, click on **ADD** and create 5 new **Read & Write** variables with **On change** Variable Update Policy:
     - **cambioIstantaneo** (bool)
     - **coloreLED** (CloudColoredLight)
     - **controlloGenerale** (bool)
     - **motoreStella** (bool)
     - **testoMatrice** (String)
+
     ![Add variable](images/Arduino_IoT_Cloud/007.jpg)
+
 28. Create a new Dashboard by clicking on **CREATE DASHBOARD** under **Dashboards**
+
     ![Add dashboard](images/Arduino_IoT_Cloud/008.jpg)
+
 29. Add three **Switch** widgets, one **Colored light** widget and a **Messenger** widget to the dashboard
+
     ![Add widgets](images/Arduino_IoT_Cloud/009.jpg)
 
 ## Embedding the Device ID and Device Secret in the Python code
@@ -179,7 +196,9 @@ python3 software.py &
 ```
 
 # Final result
+
 ![Final result](images/Tree.png)
+
 *Unfortunately, the bottom LED strip broke during the assembly.*
 
 ## Contributing
