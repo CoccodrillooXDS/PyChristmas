@@ -15,6 +15,23 @@ from luma.led_matrix.device import max7219
 from utils import scrivi_testo, send_until_ok, wait_for_arduino
 
 # ------------------------------
+#  Arduino Cloud configuration
+# ------------------------------
+
+sys.path.append("lib")
+
+DEVICE_ID = b"<REPLACE WITH YOUR DEVICE ID>"
+SECRET_KEY = b"<REPLACE WITH YOUR SECRET KEY>"
+
+# Launch the Arduino Cloud client in a separate thread
+def start_client():
+    client.start()
+
+testo = "Buon Natale!"
+
+booting = True
+
+# ------------------------------
 #      Logging configuration
 # ------------------------------
 
@@ -69,23 +86,6 @@ else:
 # How data will be structured:
 # [0/1, 0/1, 0-255, 0-255, 0-255, 0-100]
 # [ON/OFF, Instant Change, R, G, B, Brightness]
-
-# ------------------------------
-#  Arduino Cloud configuration
-# ------------------------------
-
-sys.path.append("lib")
-
-DEVICE_ID = b"<REPLACE WITH YOUR DEVICE ID>"
-SECRET_KEY = b"<REPLACE WITH YOUR SECRET KEY>"
-
-# Launch the Arduino Cloud client in a separate thread
-def start_client():
-    client.start()
-
-testo = "Buon Natale!"
-
-booting = True
 
 # ------------------------------
 #      Callback functions
