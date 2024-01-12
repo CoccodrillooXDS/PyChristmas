@@ -5,8 +5,7 @@
 <p align="center">
 <a href="https://www.arduino.cc/"><img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino"></a>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-<a href="https://cloud.arduino.cc/"><img src="https://img.shields.io/badge/Arduino_IoT_Cloud-00979D?style=for-the-badge&logo=arduino&logoColor=white&link=https%3A%2F%2Fcloud.arduino.cc%2F
-" alt="Arduino IoT Cloud"></a>
+<a href="https://cloud.arduino.cc/"><img src="https://img.shields.io/badge/Arduino_IoT_Cloud-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino IoT Cloud"></a>
 </p>
 <p align="center">
 <a href="https://www.iiscastelli.edu.it/Pager.aspx?Page=mainpage"><img src="https://img.shields.io/badge/Made_For-ITIS_B._Castelli-blue?style=for-the-badge" alt="Made for ITIS B. Castelli"></a>
